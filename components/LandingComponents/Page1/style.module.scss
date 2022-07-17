@@ -1,0 +1,169 @@
+.container {
+    width: 100%;
+}
+
+.block1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    // overflow: hidden;
+}
+@keyframes change {
+    0% {
+        background-color: rgb(39, 48, 67);
+    }
+    10% {
+        background-color: rgba(39, 48, 67, 0.1);
+    }
+    20% {
+        background-color: rgba(39, 48, 67, 0.214);
+    }
+    30% {
+        background-color: rgba(39, 48, 67, 0.314);
+    }
+    40% {
+        background-color: rgba(39, 48, 67, 0.414);
+    }
+    50% {
+        background-color: rgba(39, 48, 67, 0.514);
+    }
+    60% {
+        background-color: rgba(39, 48, 67, 0.614);
+    }
+    70% {
+        background-color: rgba(39, 48, 67, 0.714);
+    }
+    80% {
+        background-color: rgba(39, 48, 67, 0.814);
+    }
+    90% {
+        background-color: rgba(39, 48, 67, 0.9);
+    }
+    100% {
+        background-color: rgba(39, 48, 67, 1);
+    }
+}
+.icon1 {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    animation: ic 4s  ease-in; 
+}
+@keyframes ic{
+    0%{
+margin-left: -200px;
+    }
+    10%{
+        margin-left: 500px;
+    }
+    20%{
+        margin-left: 300px;
+        color: rebeccapurple;
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        color: aqua;
+        margin: 10px;
+    }
+}
+.box1 {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: xx-large;
+transition: .8s;
+    position: absolute;
+    animation-name: change;
+
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    h1 {
+    margin: 150px 0 0 450px;
+        color: white;
+        font-weight: bold;
+        z-index: 999;
+        display: none;
+        position: absolute;
+        
+        transition: 3s;
+    }
+    h2 {
+        font-size: 40px;
+        color: darkorange;
+        margin: 80px 500px;
+        transition:3s;
+    }
+    h3 {
+        font-size: 50px;
+        color: crimson;
+        margin-left: 200px;
+        transition: 3s;
+    }
+}
+.box1:hover {
+    background-color: rgba(0, 0, 0, 0.514);
+    h1 {
+        display: block;
+    }
+    h2 {
+        display: none;
+    }
+    h3 {
+        display: none;
+    }
+}
+.cards1 {
+    width: 100%;
+    height: calc(100vh - 70%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 500px;
+    position: absolute;
+    top: 80px;
+
+    .card1 {
+        width: 200px;
+        height: 100%;
+        transition: 0.8s;
+        background-color: white;
+
+        border-radius: 10px;
+        text-align: center;
+
+        p {
+            color: white;
+            font-family: cursive;
+            font-size: x-large;
+        }
+        .icons1 {
+            font-size: 50px;
+            margin: 30px 15px auto;
+            color: white;
+        }
+    }
+}
+.cards1 .card1:nth-child(1) {
+    background-color: #eab830;
+}
+.cards1 .card1:nth-child(2) {
+    background-color: #3179d4;
+}
+.cards1 .card1:nth-child(3) {
+    background-color: #1cc1d9;
+}
+.cards1 .card1:nth-child(4) {
+    background-color: #0fc45c;
+}
+.cards1 .card1:nth-child(5) {
+    background-color: #d94da6;
+}
+.card1:hover {
+    margin-bottom: 70px;
+}

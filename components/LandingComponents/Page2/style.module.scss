@@ -1,0 +1,85 @@
+.block{
+    margin-top: 100px;
+}
+.p1 {
+    font-size: 60px;
+    margin:150px 0 50px 100px;
+   }
+.cards2 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card2 {
+    margin: 20px;
+    width: 19%;
+    height: 290px;
+    border: 1px solid lightgrey;
+
+    overflow: hidden;
+}
+
+.top {
+display: inline-block;
+    height: 40%;
+    width: 100%;
+    background-image: url("https://picsum.photos/id/211/600/400");
+    h3 {
+        margin: 10px 0 0 180px;
+        background-color: #eab830;
+        color: white;
+        width: fit-content;
+        padding: 3px 5px;
+        border-radius: 7px;
+        font-size: medium;
+       
+    }
+}
+@keyframes lev{
+    0%{
+        transform: rotate(360deg);
+        background-color: indigo;
+    }
+    50%{
+        margin-top: 50px;
+        background-color: purple;
+    }
+    100%{
+        background-color: #eab830;
+    }
+}
+.top h3:nth-child(1){
+    animation: lev 3s 1s forwards;
+}
+.center {
+    height: 30%;
+    width: 100%;
+    padding: 0 0 0 10px;
+
+    h4 {
+        color: lightgrey;
+        font-weight: 100;
+        margin: 18px 0;
+    }
+    p {
+        display: inline;
+    }
+}
+
+.bottom {
+    height: 30%;
+    width: 90%;
+    padding: 25px 0px;
+    margin: auto;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    small {
+        margin: 0 110px 0 10px;
+    }
+}
