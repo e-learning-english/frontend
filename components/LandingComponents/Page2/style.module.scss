@@ -29,6 +29,7 @@ display: inline-block;
     height: 40%;
     width: 100%;
     background-image: url("https://picsum.photos/id/211/600/400");
+
     h3 {
         margin: 10px 0 0 180px;
         background-color: #eab830;
@@ -37,25 +38,11 @@ display: inline-block;
         padding: 3px 5px;
         border-radius: 7px;
         font-size: medium;
+        
        
     }
 }
-@keyframes lev{
-    0%{
-        transform: rotate(360deg);
-        background-color: indigo;
-    }
-    50%{
-        margin-top: 50px;
-        background-color: purple;
-    }
-    100%{
-        background-color: #eab830;
-    }
-}
-.top h3:nth-child(1){
-    animation: lev 3s 1s forwards;
-}
+
 .center {
     height: 30%;
     width: 100%;
