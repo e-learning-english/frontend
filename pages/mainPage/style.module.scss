@@ -3,23 +3,13 @@
     width: 100%;
     height: 100vh;
   
-  
+display: inline-block;  
 }
-.head{
-    width: 100%;
-margin-top: -60px;
-    height: 60px;
-    position: fixed;
-display: block;
-    z-index:9999;
-    background-color: crimson;
-    
-    
-}
+
 .body{
     width: 100%;
 margin-top: 60px;
-height: calc(100vh - 60px);
+
 
 
 }

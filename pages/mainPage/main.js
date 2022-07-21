@@ -7,12 +7,14 @@ function MainPage() {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.head}>
-                    <NavbarComponent />
-                </div>
+
+                <NavbarComponent />
+
                 <div className={styles.body}>
                     <LandingPage />
+
                 </div>
+
 
             </div>
         </>

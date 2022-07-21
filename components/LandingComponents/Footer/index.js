@@ -33,8 +33,7 @@ function LandingPageFooter() {
                         <h3>Beginer</h3>
                         <h3>Beginer</h3>
                         <h3>Beginer</h3>
-                        <h3>Beginer</h3>
-                        <h3>Beginer</h3>
+                       
 
                     </div>
                     <div className={styles.boxP3}>
@@ -49,15 +48,7 @@ function LandingPageFooter() {
                             <li>
                                 <IoIosArrowForward /><p>lorem ipsum </p>
                             </li>
-                            <li>
-                                <IoIosArrowForward /><p>lorem ipsum </p>
-                            </li>
-                            <li>
-                                <IoIosArrowForward /><p>lorem ipsum </p>
-                            </li>
-                            <li>
-                                <IoIosArrowForward /><p>lorem ipsum </p>
-                            </li>
+                           
                           
                             
                         </ul>

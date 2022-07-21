@@ -1,5 +1,6 @@
+
 .block{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .p1 {
     font-size: 60px;
@@ -29,11 +30,14 @@ display: inline-block;
     height: 40%;
     width: 100%;
     background-image: url("https://picsum.photos/id/211/600/400");
-
+display: flex;
+justify-content: end;
     h3 {
-        margin: 10px 0 0 180px;
+      
         background-color: #eab830;
         color: white;
+        height: 30px;
+        margin: 5px;
         width: fit-content;
         padding: 3px 5px;
         border-radius: 7px;
@@ -65,8 +69,28 @@ display: inline-block;
     margin: auto;
     border-top: 1px solid lightgrey;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     small {
-        margin: 0 110px 0 10px;
+        width: 70px;
+        justify-content: space-between;
+       display: flex;
+       align-items: center;
     }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .p1{
+        width: 75%;
+        margin:auto ;
+        background-color: red;
+          }
+.cards2{
+  
+    .card2{
+        width: 23%;
+    
+    }
+}
+
 }
