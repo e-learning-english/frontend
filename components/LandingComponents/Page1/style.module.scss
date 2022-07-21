@@ -86,7 +86,7 @@
     margin: auto;
     position: absolute;
     margin-left: 100px;
-    margin-top: 530px;
+    margin-top: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,6 +116,7 @@
         height: 100%;
         transition: 0.8s;
         background-color: white;
+        margin: 0 40px;
 
         border-radius: 10px;
         text-align: center;
@@ -154,33 +155,25 @@
 @media (min-width: 1024px) and (max-width: 1200px) {
     .block1 {
         h2 {
-            font-size: 30px;
-        }
-        h3 {
             font-size: 35px;
         }
-    }
-    .cardsWrap {
-        margin-top: 360px;
-        .cards1 {
-            justify-content: center;
-            .card1 {
-                margin: 0 40px;
-            }
-        }
-    }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-    .block1 {
-        .cardsWrap {
-            margin-top: 380px;
-    
-            .cards1 {
-                .card1 {
-                    margin: 0 40px;
-                }
-            }
+        h3 {
+            font-size: 40px;
         }
     }
     
 }
+@media (min-width:900px) and (max-width:1024px){
+    .block1{
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 37px;
+        }
+    }
+    .cardsWrap{
+        height: 35vh;
+    }
+}
+

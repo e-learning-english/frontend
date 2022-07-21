@@ -83,14 +83,20 @@ justify-content: end;
     .p1{
         width: 75%;
         margin:auto ;
-        background-color: red;
+    
           }
 .cards2{
   
     .card2{
         width: 23%;
-    
     }
 }
 
+}
+@media (min-width:900px) and (max-width:1024px){
+    .card2{
+        width: 23%;
+    height: 50vh;
+    padding: 3px;
+    }
 }
