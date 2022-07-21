@@ -2,18 +2,10 @@ import React from "react";
 import Image from "next/image";
 import styles from "./style.module.scss"
 import Link from "next/link";
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import Search from "./search";
+
 function Navbar() {
-  const [lang, setLang] = React.useState('');
 
-
-  const handleChangeLang = (event) => {
-    setLang(event.target.value);
-  };
 
 
   return (
@@ -35,8 +27,7 @@ function Navbar() {
           <h3>TWS</h3>
           <h3>Vocabulary</h3>
 
-          <input className={styles.input1} placeholder="Search" />
-
+          <Search />
         </div>
 
 
