@@ -108,7 +108,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     .card1 {
@@ -169,4 +169,18 @@
             }
         }
     }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .block1 {
+        .cardsWrap {
+            margin-top: 380px;
+    
+            .cards1 {
+                .card1 {
+                    margin: 0 40px;
+                }
+            }
+        }
+    }
+    
 }
